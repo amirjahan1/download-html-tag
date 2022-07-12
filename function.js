@@ -1,4 +1,4 @@
-function saveCanvas() {
+function saveFile() {
     const imageLink = document.createElement("a"); // Important
     const chartJs = document.getElementById("download-line-chart"); // you can change id # id = tag id
     imageLink.download = "cleansing.jpeg"; // you can change name of file, can be dynamic
